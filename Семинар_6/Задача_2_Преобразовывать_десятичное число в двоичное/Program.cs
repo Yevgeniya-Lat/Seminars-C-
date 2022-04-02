@@ -8,10 +8,8 @@
             int Prompt(string massage) 
 {
     Console.WriteLine(massage);
-    string strValue = Console.ReadLine();
-    int Value = int.Parse(strValue);
+    int Value = Convert.ToInt32(Console.ReadLine());
     return Value;
-
 }
 
 int a = Prompt("Введите десятичное число: ");

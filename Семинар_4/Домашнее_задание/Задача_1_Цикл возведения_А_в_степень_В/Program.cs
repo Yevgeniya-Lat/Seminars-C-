@@ -26,7 +26,7 @@ System.Console.WriteLine(Math.Pow(num1, num2));
 int number1, number2;
 
 System.Console.Write("Введите первое число: ");
-number1 = Int32.Parse(Console.ReadLine());
+number1 = Convert.ToInt32(Console.ReadLine());
 
 System.Console.Write("Введите второе число: ");
 number2 = Convert.ToInt32(Console.ReadLine());

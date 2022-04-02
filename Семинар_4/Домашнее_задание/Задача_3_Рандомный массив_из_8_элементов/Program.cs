@@ -7,8 +7,7 @@
             int Prompt(string massage)
 {
     Console.WriteLine(massage);
-    string strN = Console.ReadLine();
-    int N = int.Parse(strN);
+    int N = Convert.ToInt32(Console.ReadLine());
     return N;
 }
 

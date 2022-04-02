@@ -8,8 +8,7 @@
          int Prompt(string massege)
          {
             Console.Write(massege);
-            string strValue = Console.ReadLine();
-            int Value = int.Parse(strValue);
+            int Value = Convert.ToInt32(Console.ReadLine());
             return Value;
          }
    int n = Prompt("Введите число N:  ");

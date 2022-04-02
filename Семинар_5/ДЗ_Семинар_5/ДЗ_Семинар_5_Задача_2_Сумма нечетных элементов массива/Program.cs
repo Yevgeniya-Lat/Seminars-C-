@@ -30,9 +30,9 @@
         int SumElements (int [] array) // Сумма нечетных элементов массива 
 {
     int sum = 0;
-    for (int i = 0; i < array.Length; i++)
+    for (int i = 0; i < array.Length; i++) // i += 2
     {
-        if (i % 2 != 0) 
+        if (i % 2 != 0) // не пишем
         sum += array [i];
     }
     return sum;
@@ -41,4 +41,4 @@
 int[] arr = RandArray(6);
 PrintArray(arr);
 System.Console.WriteLine();
-System.Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях равна:" + SumElements(arr));
+System.Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях равна: " + SumElements(arr));

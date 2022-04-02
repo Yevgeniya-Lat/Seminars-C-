@@ -4,11 +4,10 @@
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
 
-            float Prompt(string massege)
+            int Prompt(string massege)
 {
 Console.Write(massege);
-string strValue = Console.ReadLine();
-float Value = float.Parse(strValue);
+int Value = Convert.ToInt32(Console.ReadLine());
 return Value;
 
 }
